@@ -64,45 +64,6 @@ const FOURSQUARE_ENDPOINT = 'https://api.foursquare.com/v2/venues/explore';
 const API_DEBOUNCE_TIME = 2000;*/
 //<Icon label='Food'/>
 class Icon extends Component{
-  constructor(props) {
-    super(props);
-    
-    this.getActiveTour = this.getActiveTour.bind(this);
-    this.createMarkers = this.createMarkers.bind(this);
-    this.state = {
-      initial: true,
-    }
-  }
-  
-  async getActiveTour(){
-    if (this.state.initial) {
-      try {
-        var ix = parseInt(await AsyncStorage.getItem('index'));
-        if (ix >= 0) {
-          this.setState({'initial': false, 'tourIndex': ix});
-          tourPerm = this.createMarkers();
-        }
-      } catch(e) {
-        Alert.alert('caught error ' + e);
-      }
-    }
-  }
-  
-  createMarkers() {
-    var tourMarkers = [];
-    var locations = tourData[this.state.tourIndex].locations;
-    for (var i = 0; i < locations.length; i++) {
-      var currLocation = locations[i];
-      var currMarker = {
-        latitude: currLocation.latitude,
-        longitude: currLocation.longitude,
-        title: currLocation.name,
-        tintColor: 'black',
-      }
-      tourMarkers.push(currMarker);
-    }  
-    return tourMarkers;
-  }
   
   toggleStatus_Food() {
     if(food.length == 0){food = markers.food;}
@@ -155,6 +116,65 @@ class Icon extends Component{
     }
     marker = empty.concat(food,parking,gov,art,parks,retail,history,tour);
     this.setState({ markers: this.marker });
+  }
+    render(){
+    return (
+      <View style="styles.icon_container">
+        <TouchableHighlight
+            label={this.props.label}
+            onPress={() => this.toggleStatus_Food()}
+            underlayColor={'transparent'}
+        >
+            <Image  
+              style={[{backgroundColor:this.state.tog},styles.icon]}
+              source={this.state.source}
+            />  
+         </TouchableHighlight> 
+      </View>
+    );
+  }
+  
+}
+
+export default class map extends Component{ 
+  constructor(props) {
+    super(props);
+    
+    this.getActiveTour = this.getActiveTour.bind(this);
+    this.createMarkers = this.createMarkers.bind(this);
+    this.state = {
+      initial: true,
+    }
+  }
+  
+  async getActiveTour(){
+    if (this.state.initial) {
+      try {
+        var ix = parseInt(await AsyncStorage.getItem('index'));
+        if (ix >= 0) {
+          this.setState({'initial': false, 'tourIndex': ix});
+          tourPerm = this.createMarkers();
+        }
+      } catch(e) {
+        Alert.alert('caught error ' + e);
+      }
+    }
+  }
+  
+  createMarkers() {
+    var tourMarkers = [];
+    var locations = tourData[this.state.tourIndex].locations;
+    for (var i = 0; i < locations.length; i++) {
+      var currLocation = locations[i];
+      var currMarker = {
+        latitude: currLocation.latitude,
+        longitude: currLocation.longitude,
+        title: currLocation.name,
+        tintColor: 'black',
+      }
+      tourMarkers.push(currMarker);
+    }  
+    return tourMarkers;
   }
   
   render() {
