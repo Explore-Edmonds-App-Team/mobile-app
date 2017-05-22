@@ -23,7 +23,7 @@ export default class Header extends Component {
               onPress={() => this.props.navigator.pop({ refresh: {} })}>
               <Image
               source={require('../media/Icons/BackButton.png')}
-              style={styles.backButton}
+              style={styles.icon}
               />
             </TouchableHighlight>
             <Image
@@ -39,7 +39,7 @@ export default class Header extends Component {
               onPress={() => this.props.navigator.popToTop()}>
               <Image
               source={require('../media/Icons/home.png')}
-              style={{width:50, height: 50}}
+              style={styles.icon}
               />
             </TouchableHighlight>
             <Image

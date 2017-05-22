@@ -27,6 +27,27 @@ export default class Scavenger extends Component {
   constructor(props) {
     super(props);
     this.clearText = this.clearText.bind(this);
+    this.state = {
+      initialPosition: 'unknown',
+      lastPosition: 'unknown',
+    };
+  }
+  
+  watchID: ?number = null;
+
+  componentDidMount() {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        var initialPosition = JSON.stringify(position);
+        this.setState({initialPosition});
+      },
+      (error) => alert(JSON.stringify(error)),
+      {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000}
+    );
+    this.watchID = navigator.geolocation.watchPosition((position) => {
+      var lastPosition = JSON.stringify(position);
+      this.setState({lastPosition});
+    });
   }
   
   render() {
@@ -36,20 +57,29 @@ export default class Scavenger extends Component {
           <Header title='Scavenger Hunt' navigator={this.props.navigator}/>
         </View>
         <View style={main.bodyContainer}>
-          <View style={styles.row}>
-            <View style ={styles.divider}/>
+          <View>
+        <Text>
+          <Text style={styles.title}>Initial position: </Text>
+          {this.state.initialPosition}
+        </Text>
+        <Text>
+          <Text style={styles.title}>Current position: </Text>
+          {this.state.lastPosition}
+        </Text>
+      </View>
+          <View style={styles.homeRow}>
             <TextInput
-            ref={component => this._textInput = component}
-            style={styles.input}
-            autoCapitalize='none'
-            placeholder='Enter Code'
-            placeholderTextColor='black'
-            returnKeyType='go'
-            //need to fix clear text to wait until user presses okay
-            onSubmitEditing={(event) => this.tryCode(event.nativeEvent.text).then(this.clearText)}
-          />
+              ref={component => this._textInput = component}
+              style={styles.input}
+              autoCapitalize='none'
+              placeholder='Enter Code'
+              placeholderTextColor='black'
+              returnKeyType='go'
+              //need to fix clear text to wait until user presses okay
+              onSubmitEditing={(event) => this.tryCode(event.nativeEvent.text).then(this.clearText)}
+            />
           </View>
-          <View style={styles.row}>
+          <View style={styles.homeRow}>
             <View style={styles.buttonContainer}>
               <Button
                 style={styles.button}
@@ -68,8 +98,8 @@ export default class Scavenger extends Component {
                 accessibilityLabel="Show Map"
               />
             </View>
-          </View>
-          <View style={styles.row}>
+            </View>
+          <View style={styles.homeRow}>
             <View style={styles.buttonContainer}>
               <Button
                 style={styles.button}
@@ -78,7 +108,7 @@ export default class Scavenger extends Component {
                     this.props.navigator.push({
                       id: 'ScavVisited',
                       passProps: {
-                        visited : list,
+                        places : list,
                       }
                     })
                   )
@@ -89,7 +119,7 @@ export default class Scavenger extends Component {
               />
             </View>
             </View>
-          <View style={styles.row}>
+          <View style={styles.homeRow}>
             <View style={styles.buttonContainer}>
               <Button
                 style={styles.button}
@@ -101,7 +131,7 @@ export default class Scavenger extends Component {
               />
             </View>
             </View>
-          <View style={styles.row}>
+          <View style={styles.homeRow}>
             <View style={styles.buttonContainer}>
               <Button
                 style={styles.button}
@@ -118,6 +148,17 @@ export default class Scavenger extends Component {
                 accessibilityLabel="Reset Hunt"
               />
             </View>
+            </View>
+          <View style={styles.homeRow}>
+            <View style={styles.buttonContainer}>
+              <Button
+                style={styles.button}
+                onPress={() => this.findAll()} 
+                title="Find All" 
+                color="black" 
+                accessibilityLabel="Find All"
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -131,7 +172,8 @@ export default class Scavenger extends Component {
       if (value == "true"){
         var value = {
           index: i,
-          title: db.places[i].name
+          title: db.places[i].name,
+          address: db.places[i].address,
         }
         list.push(value);
       }
@@ -222,8 +264,9 @@ export default class Scavenger extends Component {
   
   async findAll(){
     for (var i = 0; i < db.places.length; i++){
-      AsyncStorage.setItem(db.places[i].code, "true");
+      await AsyncStorage.setItem(db.places[i].code, "true");
     }
+    Alert.alert('You found everything . . . cheater');
   }
 
 }
