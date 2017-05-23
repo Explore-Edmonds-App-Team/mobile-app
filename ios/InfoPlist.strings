@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Visit_Edmonds
+
+  Created by Paul McInnis on 5/22/17.
+  Copyright © 2017 Facebook. All rights reserved.
+*/
+
+"NSLocationWhenInUseUsageDescription" = "Please enable location services to Play the scavenger hunt";

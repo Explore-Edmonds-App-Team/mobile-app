@@ -38,7 +38,7 @@ export default class ScavLocation extends Component {
             onPress={() => this.props.navigator.pop({ refresh: {} })}>
             <Image
               source={require('../media/Icons/BackButton.png')}
-              style={styles.backButton}
+              style={styles.icon}
             />
           </TouchableHighlight>
           <ScrollView style={styles.infoContainer}>
@@ -51,11 +51,10 @@ export default class ScavLocation extends Component {
             <Address address={this.state.address}/>
             <Description description={this.state.description}/>
           </ScrollView>
-          <View style={{flex: 0.175, flexDirection: 'column', borderTopWidth: StyleSheet.hairlineWidth}}>
-            <View style={styles.buttonContainer}>
+          <View style={{flex: 0.175, flexDirection: 'column'}}>
+            <View style={styles.locationButton}>
               <View style={{marginTop: -7}}>
               <Button
-                style={styles.button}
                 onPress={() => this.buildMarker()
                   .then( (marker) => 
                     this.props.navigator.push({
@@ -67,10 +66,9 @@ export default class ScavLocation extends Component {
                     })
                   )
                 }
-                title="Show on map"
+                title="Show Map"
                 color="black"
-                fontSize='50'
-                accessibilityLabel="Tap on Me"
+                accessibilityLabel="Show Map"
               />
               </View>
           </View>

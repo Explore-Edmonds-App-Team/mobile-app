@@ -35,6 +35,7 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* Visit_EdmondsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Visit_EdmondsTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		63CC40AE1ED35FBA0052BC36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63CC40AD1ED35FBA0052BC36 /* InfoPlist.strings */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -237,12 +238,12 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* Visit_EdmondsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Visit_EdmondsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* Visit EdmondsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Visit EdmondsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* Visit_EdmondsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Visit_EdmondsTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Visit_Edmonds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visit_Edmonds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Visit Edmonds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Visit Edmonds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Visit_Edmonds/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Visit_Edmonds/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -250,9 +251,10 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Visit_Edmonds/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Visit_Edmonds/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Visit_Edmonds-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Visit_Edmonds-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Visit_Edmonds-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Visit_Edmonds-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* Visit Edmonds-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Visit Edmonds-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Visit Edmonds-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Visit Edmonds-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		63CC40AD1ED35FBA0052BC36 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -396,6 +398,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				63CC40AD1ED35FBA0052BC36 /* InfoPlist.strings */,
 			);
 			name = Visit_Edmonds;
 			sourceTree = "<group>";
@@ -475,10 +478,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Visit_Edmonds.app */,
-				00E356EE1AD99517003FC87E /* Visit_EdmondsTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Visit_Edmonds-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Visit_Edmonds-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Visit Edmonds.app */,
+				00E356EE1AD99517003FC87E /* Visit EdmondsTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Visit Edmonds-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Visit Edmonds-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -486,9 +489,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* Visit_EdmondsTests */ = {
+		00E356ED1AD99517003FC87E /* Visit EdmondsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Visit_EdmondsTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Visit EdmondsTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -499,14 +502,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = Visit_EdmondsTests;
+			name = "Visit EdmondsTests";
 			productName = Visit_EdmondsTests;
-			productReference = 00E356EE1AD99517003FC87E /* Visit_EdmondsTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* Visit EdmondsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Visit_Edmonds */ = {
+		13B07F861A680F5B00A75B9A /* Visit Edmonds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Visit_Edmonds" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Visit Edmonds" */;
 			buildPhases = (
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -517,14 +520,14 @@
 			);
 			dependencies = (
 			);
-			name = Visit_Edmonds;
+			name = "Visit Edmonds";
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* Visit_Edmonds.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Visit Edmonds.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Visit_Edmonds-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Visit Edmonds-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Visit_Edmonds-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Visit Edmonds-tvOS" */;
 			buildPhases = (
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -535,14 +538,14 @@
 			);
 			dependencies = (
 			);
-			name = "Visit_Edmonds-tvOS";
+			name = "Visit Edmonds-tvOS";
 			productName = "Visit_Edmonds-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Visit_Edmonds-tvOS.app */;
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Visit Edmonds-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Visit_Edmonds-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Visit Edmonds-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Visit_Edmonds-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Visit Edmonds-tvOSTests" */;
 			buildPhases = (
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
@@ -553,9 +556,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Visit_Edmonds-tvOSTests";
+			name = "Visit Edmonds-tvOSTests";
 			productName = "Visit_Edmonds-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Visit_Edmonds-tvOSTests.xctest */;
+			productReference = 2D02E4901E0B4A5D006451C7 /* Visit Edmonds-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -585,7 +588,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Visit_Edmonds" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Visit Edmonds" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -644,10 +647,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Visit_Edmonds */,
-				00E356ED1AD99517003FC87E /* Visit_EdmondsTests */,
-				2D02E47A1E0B4A5D006451C7 /* Visit_Edmonds-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Visit_Edmonds-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Visit Edmonds */,
+				00E356ED1AD99517003FC87E /* Visit EdmondsTests */,
+				2D02E47A1E0B4A5D006451C7 /* Visit Edmonds-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Visit Edmonds-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -843,6 +846,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				63CC40AE1ED35FBA0052BC36 /* InfoPlist.strings in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -935,12 +939,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Visit_Edmonds */;
+			target = 13B07F861A680F5B00A75B9A /* Visit Edmonds */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Visit_Edmonds-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Visit Edmonds-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -974,7 +978,7 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visit_Edmonds.app/Visit_Edmonds";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visit Edmonds.app/Visit Edmonds";
 			};
 			name = Debug;
 		};
@@ -991,7 +995,7 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visit_Edmonds.app/Visit_Edmonds";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visit Edmonds.app/Visit Edmonds";
 			};
 			name = Release;
 		};
@@ -1009,7 +1013,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_NAME = Visit_Edmonds;
+				PRODUCT_NAME = "Visit Edmonds";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1027,7 +1031,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_NAME = Visit_Edmonds;
+				PRODUCT_NAME = "Visit Edmonds";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1100,7 +1104,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Visit_Edmonds-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visit_Edmonds-tvOS.app/Visit_Edmonds-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visit Edmonds-tvOS.app/Visit Edmonds-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
@@ -1121,7 +1125,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Visit_Edmonds-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visit_Edmonds-tvOS.app/Visit_Edmonds-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visit Edmonds-tvOS.app/Visit Edmonds-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1207,7 +1211,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Visit_EdmondsTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Visit EdmondsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1216,7 +1220,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Visit_Edmonds" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Visit Edmonds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1225,7 +1229,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Visit_Edmonds-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Visit Edmonds-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1234,7 +1238,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Visit_Edmonds-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Visit Edmonds-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1243,7 +1247,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Visit_Edmonds" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Visit Edmonds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
