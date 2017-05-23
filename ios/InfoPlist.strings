@@ -6,4 +6,4 @@
   Copyright © 2017 Facebook. All rights reserved.
 */
 
-"NSLocationWhenInUseUsageDescription" = "Give me Your Location!!!!!";
+"NSLocationWhenInUseUsageDescription" = "Please enable location services to Play the scavenger hunt";

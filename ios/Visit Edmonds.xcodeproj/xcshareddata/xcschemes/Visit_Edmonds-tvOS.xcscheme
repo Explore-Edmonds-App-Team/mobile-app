@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Visit_Edmonds-tvOS.app"
-               BlueprintName = "Visit_Edmonds-tvOS"
-               ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+               BuildableName = "Visit Edmonds-tvOS.app"
+               BlueprintName = "Visit Edmonds-tvOS"
+               ReferencedContainer = "container:Visit Edmonds.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Visit_Edmonds-tvOSTests.xctest"
-               BlueprintName = "Visit_Edmonds-tvOSTests"
-               ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+               BuildableName = "Visit Edmonds-tvOSTests.xctest"
+               BlueprintName = "Visit Edmonds-tvOSTests"
+               ReferencedContainer = "container:Visit Edmonds.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Visit_Edmonds-tvOSTests.xctest"
-               BlueprintName = "Visit_Edmonds-tvOSTests"
-               ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+               BuildableName = "Visit Edmonds-tvOSTests.xctest"
+               BlueprintName = "Visit Edmonds-tvOSTests"
+               ReferencedContainer = "container:Visit Edmonds.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Visit_Edmonds-tvOS.app"
-            BlueprintName = "Visit_Edmonds-tvOS"
-            ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+            BuildableName = "Visit Edmonds-tvOS.app"
+            BlueprintName = "Visit Edmonds-tvOS"
+            ReferencedContainer = "container:Visit Edmonds.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Visit_Edmonds-tvOS.app"
-            BlueprintName = "Visit_Edmonds-tvOS"
-            ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+            BuildableName = "Visit Edmonds-tvOS.app"
+            BlueprintName = "Visit Edmonds-tvOS"
+            ReferencedContainer = "container:Visit Edmonds.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Visit_Edmonds-tvOS.app"
-            BlueprintName = "Visit_Edmonds-tvOS"
-            ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+            BuildableName = "Visit Edmonds-tvOS.app"
+            BlueprintName = "Visit Edmonds-tvOS"
+            ReferencedContainer = "container:Visit Edmonds.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -45,6 +45,20 @@ const styles = StyleSheet.create({
   evenBackground: {
     backgroundColor: '#f7f7f7',
   },
+  greenButton : {
+    backgroundColor: 'green',
+    borderWidth: 1,
+    borderRadius: 10,
+    padding: 10,
+    shadowColor: '#000000',
+    shadowOffset: {
+      width: 0,
+      height: 3
+    },
+    marginHorizontal: 15,
+    shadowRadius: 10,
+    shadowOpacity: 0.25
+  },
   homeRow: {
     flex: 0.160,
     flexDirection: 'column',
@@ -104,6 +118,20 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     backgroundColor: 'white',
+  },
+  refreshButton : {
+    backgroundColor: '#f1c232',
+    borderWidth: 1,
+    borderRadius: 10,
+    padding: 10,
+    shadowColor: '#000000',
+    shadowOffset: {
+      width: 0,
+      height: 3
+    },
+    marginHorizontal: 15,
+    shadowRadius: 10,
+    shadowOpacity: 0.25
   },
   rowContainer: {
     flex: 1,

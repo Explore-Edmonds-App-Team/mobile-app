@@ -88,9 +88,7 @@ export default class ScavVisited extends Component {
     async buildMarkers(){
     var markers = []
     for (var i = 0; i < db.places.length; i++){
-      var value = await AsyncStorage.getItem(db.places[i].code);
-      var color = (value == "true" ? 'green' : 'red');
-      var marker = this.buildMArker(i, color);
+      var marker = this.buildMArker(i, 'red');
       markers.push(marker);
     }
     return markers;

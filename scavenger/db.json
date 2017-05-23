@@ -1,7 +1,42 @@
 { 
   "places" : [
     {
-      "code" :'vvLu',
+    "latitude": 40.759211,
+      "longitude": -73.984638,
+      "name": 'Test',
+      "creator" : 'Paul McInnis',
+      "year" : '2017',
+      "address" : 'New York, New York',
+      "description" : "This is a tolken creaeted to test the scavenger hunt"
+    },
+    {
+    "latitude": 48.734097,
+      "longitude": -122.486477,
+      "name": 'Test2',
+      "creator" : 'Paul McInnis',
+      "year" : '2017',
+      "address" : 'Haskell Plaza',
+      "description" : "This is a tolken created to test the scavenger hunt"
+    },
+    {
+    "latitude": 48.732543,
+      "longitude": -122.486256,
+      "name": 'Test3',
+      "creator" : 'Paul McInnis',
+      "year" : '2017',
+      "address" : 'The Stairs at Western',
+      "description" : "This is a tolken created to test the scavenger hunt"
+    },
+    {
+    "latitude": 48.737032,
+      "longitude": -122.485624,
+      "name": 'Test4',
+      "creator" : 'Paul McInnis',
+      "year" : '2017',
+      "address" : 'Fountain at red square',
+      "description" : "This is a tolken created to test the scavenger hunt"
+    },
+    {
       "latitude": 47.812481,
       "longitude": -122.383668,
       "name": 'Beach Launch',
@@ -11,7 +46,6 @@
       "description" : 'Bronze Sculpture along Brackett\'s Landing.'
     },
     {
-      "code" : 'HtQk',
       "latitude": 47.813571,
       "longitude": -122.381872,
       "name": 'Bruce Higgen\'s UnderWater Trails',
@@ -21,7 +55,6 @@
       "description" : 'The Park was established at Brackett\'s Landing in 1970 by city ordinance as a Marine Preserve and Sanctuary. It is the most popular of 10 underwater parks that make up Washington’s underwater park system.\n\nAbout 25,000 scuba divers visit the Edmonds park each year. Most are among the state\'s 250,000 trained divers, though 15 percent come from out of state, mostly from Portland and Vancouver, B.C.'
     },
     {
-      "code" : 'ipu9',
       "latitude": 47.810255,
       "longitude": -122.384011,
       "name": 'Cascadia Art Museum',
@@ -31,7 +64,6 @@
       "description" : 'Located inside a former SAfeway grocery store. The museum\'s primary focus is on artwork from the Pacific Northwest from 1880 to 1962, either from artists from the area or related to local places and events. Pacific Northwest art from this period, especially the years prior to 1930, has been largely forgotten by museums and collectors according to art historians. The region\'s artwork, according to curator David Martin, differs from the rest of the United States because of influences from Native American and East Asian culture. The museum features five galleries, which are divided into annual and quarterly rotations, and over 200 works that is leases and borrows from other collections.'
     },
     {
-      "code" : 'batF',
       "latitude": 47.810535,
       "longitude": -122.377520,
       "name": 'Cedar Dreams Fountain',
@@ -41,7 +73,6 @@
       "description" : 'Originally the intersection of the main north-south and east-west wagon roads serving Edmonds, the corner of what we know today as Fifth and Main began as a muddy, manure-strewn quagmire.\n\nAs the town grew up around it, it soon became downtown Edmonds\' eastern focal point. The area now known as the central business district grew up along the axis between this and the western focal point, the wharf at the foot of Main Street.\n\nBy the mid 1920s, the automobile had become commonplace. Drawn by the ferries serving the Olympic Peninsula, cars increasingly jammed Edmonds\' downtown streets. Each year saw more traffic moving through the intersection of Fifth and Main, bringing with it congestion, noise, accidents and other ills. In an effort to control this, the City of Edmonds installed a traffic light, added signage and experimented with one-way streets.\n\nThe earliest traffic circle came by accident. During World War II, many towns participated in home-front activities by holding scrap drives to collect materials necessary to the war effort. Edmonds was no exception (see Patch article ""). A collection point for scrap metal was set up in the middle of the intersection, forcing automobiles to drive around it. In later years it became a holiday tradition to erect the municipal Christmas tree in the middle of the intersection, which also had the effect of turning it into a roundabout.\n\nIn the early 1970s, perhaps inspired by the way intersection helped smooth traffic flow through downtown, the city designated it as a traffic circle and public art location.\n\nA call went out to artists, and in 1974 the first piece of public art was installed. Designed by local artists Ed Ballew and Howard Duell, it was an abstract free-form fountain sculpted from sheets of copper. Pumps and internal plumbing sent water cascading over the various structural elements.\n\nThe next few years saw the traffic circle and fountain evolve into a focal point for Edmonds. In 1978, it was officially dedicated as the Al Kincaid Traffic Circle, in honor of his years of service to the community and as Chamber of Commerce president.\n\nThe original fountain remained until 1998. One day, though, an out-of-control car jumped the brick border separating it from the roadway and crashed into the fountain, damaging it beyond repair.\n\nThe next structure to occupy the roundabout was a wooden gazebo originally built in 1998 as a prop for the filming of a made-for-TV movie. The white gazebo had a certain charm, but little structural integrity or artistic merit.\n\nDespite being frowned upon as little more than backyard furniture that could be bought in any home supply big-box store, many Edmonds residents loved the gazebo. A grassroots Save Our Gazebo committee petitioned the City of Edmonds to keep it, but it was not to be.\n\nAs an official public art location, Edmonds\' codes mandate a formal selection process to choose a replacement. In 1999, the gazebo was moved from the traffic circle to a temporary location on Dayton Street near Harbor Square.\n\nIts replacement, the Cedar Dreams Fountain, would come to be one of the premier pieces of public art in the Pacific Northwest.\n\nEdmonds Patch',
     },
     {
-      "code" : 'pmTg',
       "latitude": 47.811399,
       "longitude": -122.376447,
       "name": 'Centennial Plaza',
@@ -51,7 +82,6 @@
       "description" : 'No Description'
     },
     {
-      "code" : 'NB4J',
       "latitude": 47.811250,
       "longitude": -122.376937,
       "name": 'City Hall',
@@ -61,7 +91,6 @@
       "description" : 'No Description'
     },
     {
-      "code" : 'hNFs',
       "latitude": 47.812672,
       "longitude": -122.382763,
       "name": 'Don Lawson Memorial',
@@ -71,7 +100,6 @@
       "description" : 'Memorial to honor Don Lawson, Edmonds cheif administrative officer from 1960 - 1972'
     },
     {
-      "code" : 'BXzV',
       "latitude": 47.811475,
       "longitude": -122.379449,
       "name": 'Edmonds to Starboard',
@@ -81,7 +109,6 @@
       "description" : 'Painted in 2011 when our theme was “Hidden Treasures” based on the natural beauty of Edmonds. This mural captures a gorgeous sunset over the water, at the end of a typical cloudy day. Dark clouds still roil overhead, while the setting sun gets captured on some to make them glow magnificently.'
     },
     {
-      "code" : 'mAru',
       "latitude": 47.810433,
       "longitude": -122.385154,
       "name": 'Edmonds Station',
@@ -91,7 +118,6 @@
       "description" : 'Located on an at-grade portion of the Expo Line, Edmonds Station is a part of Metro Vancouver\'s SkyTrain rapid transit system in Canada. It was built in 1985 as part of the original Expo Line.'
     },
     {
-      "code" : 'MvGj',
       "latitude": 47.810785,
       "longitude": -122.377831,
       "name": 'Edmonds Theater',
@@ -101,7 +127,6 @@
       "description" : 'The Edmonds Theater is a historic single-screen theater with seating for 235 people including two balconies for those age 18 and up. Built in the 1920s, the Theater has been independently owned and operated by the same family for more than 30 years.'
     },
     {
-      "code" : 'pG2J',
       "latitude": 47.809478,
       "longitude": -122.381254,
       "name": 'Fibonnaci',
@@ -111,7 +136,6 @@
       "description" : 'Designed by Edmonds artist Darlene McLellan, the plaza inlay is reminiscent of a Fibonacci swirl. Commissioned in 2008 and installed in 2016. '
     },
     {
-      "code" : 'y2zr',
       "latitude": 47.811949,
       "longitude": -122.384660,
       "name": 'Friendship Tree',
@@ -121,7 +145,6 @@
       "description" : 'Carved, naturally felled, cedar pole in commemoration of the Sister City relationship with Hekinan Japan. Seattle artist Steve Jensen worked with a group students in a workshop sponsored by EAC, EAFF & Edmonds Sister City Commission, to create design images that reflect the character of Edmonds and Hekinan. The word “friend” in Japanese, and the image of the sea turtle, a symbol of longevity, are combined with other design elements from nature to commemorate the enduring friendship between the two communities. Funded by Percent for Art funds and private donations from Hekinan. In 2001 Jensen created an aluminum sculpture, “Crane”, sited at Hekinan’s City Hall.'
     },
     {
-      "code" : 'M3pg',
       "latitude": 47.809135,
       "longitude": -122.377439,
       "name": 'Hazel Miller Plaza',
@@ -131,7 +154,6 @@
       "description" : 'A central downtown gathering space.'
     },
     {
-      "code" : 'PiZn',
       "latitude": 47.811052,
       "longitude": -122.376847,
       "name": 'Historical Museum',
@@ -141,7 +163,6 @@
       "description" : 'The Edmonds Museum is located in a beautifully restored 1910 Carnegie Library building in the heart of Edmonds at 118 5th Avenue North, just north of the fountain at Fifth and Main. The museum building contains two levels. The upper level provides display space for rotating exhibits throughout the year. Our Current Exhibit in this space is Edmonds In Focus, featuring toys that might have appeared under holiday trees of the last century.\n\nThe lower level consists of permanent displays detailing the history of Edmonds and interpreting the many changes that have taken place, from the age of exploration and discovery, through the founding and growth of the city, and up to the 1950s when the last mill closed. Highlights of this space include our gift shop, a reconstruction of a room from the 1891 Stevens Hotel, a restored jail cell from when the building served as City Hall and a working model of a shingle mill, representative of the mills that filled the waterfront at the turn of the century.'
     },
     {
-      "code" : 'U2ix',
       "latitude": 47.810716,
       "longitude": -122.386490,
       "name": 'Locals',
@@ -151,7 +172,6 @@
       "description" : 'Gift to the City of Edmonds by the Edmonds Arts Festival'
     },
     {
-      "code" : '2RSu',
       "latitude": 47.813809,
       "longitude": -122.381756,
       "name": 'Orca',
@@ -161,7 +181,6 @@
       "description" : 'Originally created in 1994 the popular sculpture fell down in 2015. Thankful the then 87 year old creator through 50 hours and 75 pounds of concrete patch, repaired the sculpture to its former glory.'
     },
     {
-      "code" : 'Brbx',
       "latitude": 47.811394,
       "longitude": -122.389121,
       "name": 'Public Fishing Pier',
@@ -171,7 +190,6 @@
       "description" : 'Originally built in 1975, the popular fishing pier was renovated from 2015 to 2016 at a cost of 1.6 million dollars'
     },
     {
-      "code" : 'zXQt',
       "latitude": 47.811325,
       "longitude": -122.382088,
       "name": 'Richard F. Anway Park',
@@ -181,7 +199,6 @@
       "description" : 'Formerly the SR 104 mini-park, the Richard F. Anmay Park was renamed in 2013 after the late Richard “Dick” Anway, served as an Edmonds Police Department Reserve Officer for 36 years. He volunteered throughout the decades patrolling the streets of Edmonds and assisting with community events such as the 4th of July, Halloween, Taste of Edmonds and the Arts Festival. He was known for being willing to work ferry traffic during holidays so that the regular officers could have those days off with their families.'
     },
     {
-      "code" : 'U6rQ',
       "latitude": 47.810308,
       "longitude": -122.387112,
       "name": 'Seeing Whales',
@@ -191,7 +208,6 @@
       "description" : 'A gift to the City of Edmonds from the Edmonds Arts Festival Foundation in Appreciation of the contribution Edmonds volunteers make to the festival'
     },
     {
-      "code" : 'J75p',
       "latitude": 47.810426,
       "longitude": -122.371630,
       "name": 'Snowy Owl',
@@ -201,7 +217,6 @@
       "description" : 'No Description'
     },
    {
-     "code" : 'F32V',
      "latitude": 47.812305,
      "longitude": -122.382629,
      "name": 'Standing Wave',
@@ -211,7 +226,6 @@
      "description" : "Welded Bronze. Tsutakawa creates small studio bronzes as well as large public art fountains and sculptures including “The Mitt” at Safeco Field in Seattle. Installed in a temporary location at the SR 104 Mini Park in the ferry holding lanes in 2004, Standing Wave was relocated to Main & Railroad in 2011. A Sound Transit Art Project with additional private funding through EAC’s public art program."
    },
     {
-      "code" : '2AX2',
       "latitude": 47.810186,
       "longitude": -122.372505,
       "name": 'Vision',
@@ -221,7 +235,6 @@
       "description" : 'Cast Bronze, larger than life size. DuPen, who died in 2005, was Professor Emeritus of the University of Washington where he was chair of the Sculpture Department for many years. Most of his sculpture is based upon expressions celebrating life and nature, and he had a particular love and inclination for using the human form in his work. This was the City’s second Percent for Art Purchase.'
     },
     {
-      "code" : 'rNEh',
       "latitude": 47.811169,
       "longitude": -122.376706,
       "name": 'Visitor Bureau',
@@ -231,7 +244,6 @@
       "description" : 'The cabin the Edmonds Visitor Center. Staffed by volunteers, open weekdays from 9 am to 4 pm, and Saturdays from 10 am to 2 pm. Officially known as the Ganahl-Hanley Cabin.'
     },
     {
-      "code" : 'BLbD',
       "latitude": 47.809499,
       "longitude": -122.382454,
       "name": 'Waste Water Treatment Plant',
@@ -241,7 +253,6 @@
       "description" : 'Yes, this is the actual waste water treatment plant, but the park outside is quite nice.'
     },
     {
-      "code" : 'uDFV',
       "latitude": 47.811636,
       "longitude": -122.375549,
       "name": 'Water\s of Justice',
