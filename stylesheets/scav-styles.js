@@ -81,6 +81,9 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
   },
   infoContainer: {
+    backgroundColor: 'rgba(255, 255, 255, 0.7)',
+    borderRadius: 5,
+    padding: 5,
     paddingTop: 15,
     flex: .8,
     flexDirection: 'column',
@@ -99,6 +102,9 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 7,
     marginHorizontal: 15,
+  },
+  instructContainer: {
+    margin: 15,
   },
   locationButton: {
     backgroundColor: '#75a9f9',

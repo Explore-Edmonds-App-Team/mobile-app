@@ -34,45 +34,47 @@ export default class ScavLocation extends Component {
   render() {
       return(
       <View style={styles.locationContainer}>
-          <TouchableHighlight
-            onPress={() => this.props.navigator.pop({ refresh: {} })}>
-            <Image
-              source={require('../media/Icons/BackButton.png')}
-              style={styles.icon}
-            />
-          </TouchableHighlight>
-          <ScrollView style={styles.infoContainer}>
-            <Image
-              source={{uri : this.state.imageURI}}
-              style={styles.image}
-            />
-            <Text style={styles.title}>{this.props.title}</Text>
-            <Creator creator={this.state.creator} year={this.state.year}/>
-            <Address address={this.state.address}/>
-            <Description description={this.state.description}/>
-          </ScrollView>
-          <View style={{flex: 0.175, flexDirection: 'column'}}>
-            <View style={styles.locationButton}>
-              <View style={{marginTop: -7}}>
-              <Button
-                onPress={() => this.buildMarker()
-                  .then( (marker) => 
-                    this.props.navigator.push({
-                      id: 'ScavMap',
-                        passProps: {
-                        index: this.props.index,
-                        markers: marker
-                      }
-                    })
-                  )
-                }
-                title="Show Map"
-                color="black"
-                accessibilityLabel="Show Map"
+          <Image source={require('../media/background.png')} style={{flex: 1, width: null, height: null}}>
+            <TouchableHighlight
+              onPress={() => this.props.navigator.pop({ refresh: {} })}>
+              <Image
+                source={require('../media/Icons/BackButton.png')}
+                style={styles.icon}
               />
-              </View>
-          </View>
-       </View>
+            </TouchableHighlight>
+            <ScrollView style={styles.infoContainer}>
+              <Image
+                source={{uri : this.state.imageURI}}
+                style={styles.image}
+              />
+              <Text style={styles.title}>{this.props.title}</Text>
+              <Creator creator={this.state.creator} year={this.state.year}/>
+              <Address address={this.state.address}/>
+              <Description description={this.state.description}/>
+            </ScrollView>
+            <View style={{flex: 0.175, flexDirection: 'column'}}>
+              <View style={styles.locationButton}>
+                <View style={{marginTop: -7}}>
+                <Button
+                  onPress={() => this.buildMarker()
+                    .then( (marker) => 
+                      this.props.navigator.push({
+                        id: 'ScavMap',
+                          passProps: {
+                          index: this.props.index,
+                          markers: marker
+                        }
+                      })
+                    )
+                  }
+                  title="Show Map"
+                  color="black"
+                  accessibilityLabel="Show Map"
+                />
+                </View>
+            </View>
+         </View>
+      </Image>
       </View>);
   }
   
