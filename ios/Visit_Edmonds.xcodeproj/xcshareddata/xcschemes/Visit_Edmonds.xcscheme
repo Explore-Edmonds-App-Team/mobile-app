@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Visit_Edmonds.app"
-               BlueprintName = "Visit_Edmonds"
-               ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+               BuildableName = "Visit Edmonds.app"
+               BlueprintName = "Visit Edmonds"
+               ReferencedContainer = "container:Visit Edmonds.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Visit_Edmonds.app"
-            BlueprintName = "Visit_Edmonds"
-            ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+            BuildableName = "Visit Edmonds.app"
+            BlueprintName = "Visit Edmonds"
+            ReferencedContainer = "container:Visit Edmonds.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Visit_Edmonds.app"
-            BlueprintName = "Visit_Edmonds"
-            ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+            BuildableName = "Visit Edmonds.app"
+            BlueprintName = "Visit Edmonds"
+            ReferencedContainer = "container:Visit Edmonds.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -118,9 +118,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Visit_Edmonds.app"
-            BlueprintName = "Visit_Edmonds"
-            ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+            BuildableName = "Visit Edmonds.app"
+            BlueprintName = "Visit Edmonds"
+            ReferencedContainer = "container:Visit Edmonds.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
