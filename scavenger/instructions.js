@@ -27,7 +27,7 @@ export default class ScavInstruct extends Component {
     return (
       <View style={main.container}>
         <View style={main.headerContainer}>
-          <Header title='Instructions' navigator={this.props.navigator} type='back'/>
+          <Header title='Instructions' navigator={this.props.navigator} type='back' hasImage={true}/>
         </View>
         <View style={main.bodyContainer}>
           <Body/>

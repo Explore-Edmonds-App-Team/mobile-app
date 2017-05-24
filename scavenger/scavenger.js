@@ -31,7 +31,9 @@ export default class Scavenger extends Component {
     return (
       <View style={main.container}>
         <View style={main.headerContainer}>
-          <Header title='Scavenger Hunt' navigator={this.props.navigator}/>
+          
+          <Header title='Scavenger Hunt' navigator={this.props.navigator} hasImage={true}/>
+          
         </View>
         <View style={main.bodyContainer}>
           <View>

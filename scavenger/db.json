@@ -1,41 +1,5 @@
-{ 
+{
   "places" : [
-    {
-    "latitude": 40.759211,
-      "longitude": -73.984638,
-      "name": 'Test',
-      "creator" : 'Paul McInnis',
-      "year" : '2017',
-      "address" : 'New York, New York',
-      "description" : "This is a tolken creaeted to test the scavenger hunt"
-    },
-    {
-    "latitude": 48.734097,
-      "longitude": -122.486477,
-      "name": 'Test2',
-      "creator" : 'Paul McInnis',
-      "year" : '2017',
-      "address" : 'Haskell Plaza',
-      "description" : "This is a tolken created to test the scavenger hunt"
-    },
-    {
-    "latitude": 48.732543,
-      "longitude": -122.486256,
-      "name": 'Test3',
-      "creator" : 'Paul McInnis',
-      "year" : '2017',
-      "address" : 'The Stairs at Western',
-      "description" : "This is a tolken created to test the scavenger hunt"
-    },
-    {
-    "latitude": 48.737032,
-      "longitude": -122.485624,
-      "name": 'Test4',
-      "creator" : 'Paul McInnis',
-      "year" : '2017',
-      "address" : 'Fountain at red square',
-      "description" : "This is a tolken created to test the scavenger hunt"
-    },
     {
       "latitude": 47.812481,
       "longitude": -122.383668,

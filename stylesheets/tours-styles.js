@@ -26,6 +26,7 @@ export default tourStyles = StyleSheet.create ({
     backgroundColor:'#aadaff',
     borderColor: '#000000',
     borderWidth: StyleSheet.hairlineWidth,
+    height: screenH/8 * 6,
   },
   
   buildButton: {
@@ -99,19 +100,11 @@ export default tourStyles = StyleSheet.create ({
     fontWeight: 'bold',
     margin: 2,
   },
-  
-  locationsList: {
-    backgroundColor: "white",
-    borderColor: '#000000',
-    borderWidth: StyleSheet.hairlineWidth,
-    height: screenH/2,
-  },
     
   mainContainer: {
     flex: 1,
     flexDirection: 'column',
     justifyContent: 'flex-start',
-    paddingTop: 30,
     backgroundColor: '#75a9f9',
   },
   
@@ -151,6 +144,7 @@ export default tourStyles = StyleSheet.create ({
   tourName: {
     fontSize: 16,
     fontWeight: 'bold',
+    width: screenW/2,
     margin: 2,
   },
   

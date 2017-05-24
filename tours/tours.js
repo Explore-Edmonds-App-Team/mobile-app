@@ -1,4 +1,3 @@
-
 import React, { Component, PropTypes } from 'react';
 import Dimensions from 'Dimensions';
 import {
@@ -28,6 +27,7 @@ export default class Tours extends Component {
         <Header 
           navigator={this.props.navigator} 
           title='Tours'
+          hasImage={true}
           />
       
         <Body 
@@ -113,4 +113,3 @@ class Row extends React.Component {
   }
 
 };
-

@@ -36,7 +36,7 @@ export default class ScavVisited extends Component {
       return(
         <View style={main.container}>
           <View style={main.headerContainer}>
-            <Header title='Visited Locations' navigator={this.props.navigator} type='back' />
+            <Header title='Visited Locations' navigator={this.props.navigator} type='back' hasImage={true} />
           </View>
           <View style={main.bodyContainer}>
             <View style={styles.centerText}>

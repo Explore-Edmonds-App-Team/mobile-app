@@ -1,4 +1,3 @@
-
 import React, { Component, PropTypes } from 'react';
 import Dimensions from 'Dimensions';
 import {
@@ -31,6 +30,7 @@ export default class TourCurrent extends Component {
         <Header 
           navigator={this.props.navigator} 
           title={this.props.tourname}
+          hasImage={false}
           type='back'
         />
         
@@ -159,7 +159,17 @@ class Body extends React.Component {
     this.getActiveTour();
     if (this.isActive() == true) {
       return (
-        <View>
+        <View style={tourStyles.bodyContainer}>
+
+          <Text style={tourStyles.activeTourLabel}>Locations:</Text>
+
+          <ListView
+              style={tourStyles.list}
+              dataSource={this.state.dataSource}
+              renderRow={(tourLocations) => <Row navigator={this.props.navigator} {...tourLocations} />}
+              renderSeparator={(sectionId, rowId) => <View key={rowId} style={tourStyles.separator} />}
+          />
+          
           <View style={tourStyles.buttonContainer}>
               <Button
                 onPress={() => this.deactivateTour()}
@@ -177,20 +187,26 @@ class Body extends React.Component {
                 accessibilityLabel="Map View"
               />
           </View>
-
-          <View style={tourStyles.listHeader}><Text style={tourStyles.listHeaderText}>Locations:</Text></View>
-
-          <ListView
-              style={tourStyles.locationsList}
-              dataSource={this.state.dataSource}
-              renderRow={(tourLocations) => <Row navigator={this.props.navigator} {...tourLocations} />}
-              renderSeparator={(sectionId, rowId) => <View key={rowId} style={tourStyles.separator} />}
-          />
+          
         </View>
       );
     } else {
       return (
-        <View>
+        <View style={tourStyles.bodyContainer}>
+          
+          <Text style={tourStyles.activeTourLabel}>Locations:</Text>
+
+          <ListView
+              style={tourStyles.list}
+              dataSource={this.state.dataSource}
+              renderRow={(tourLocations, sectionId, rowId) => <Row 
+                                              navigator={this.props.navigator} 
+                                              index={rowId} 
+                                              tourindex={this.props.index}
+                                              {...tourLocations} />}
+              renderSeparator={(sectionId, rowId) => <View key={rowId} style={tourStyles.separator} />}
+          />
+          
           <View style={tourStyles.buttonContainer}>
               <Button
                 onPress={() => this.activateTour()}
@@ -208,15 +224,7 @@ class Body extends React.Component {
                 accessibilityLabel="Map View"
               />
           </View>
-
-          <View style={tourStyles.listHeader}><Text style={tourStyles.listHeaderText}>Locations:</Text></View>
-
-          <ListView
-              style={tourStyles.locationsList}
-              dataSource={this.state.dataSource}
-              renderRow={(tourLocations) => <Row navigator={this.props.navigator} {...tourLocations} />}
-              renderSeparator={(sectionId, rowId) => <View key={rowId} style={tourStyles.separator} />}
-          />
+          
         </View>
       );
     }
@@ -227,7 +235,14 @@ class Row extends React.Component {
   
   constructor(props) {
     super(props);
+    this.navToLocation = this.navToLocation.bind(this);
   }
+  
+  navToLocation() {this.props.navigator.push(
+    {id: 'TourLocation', 
+     passProps: {name: this.props.name, 
+                 address: this.props.address, 
+                 description:this.props.description}})}
   
   render() {
     return (
@@ -238,6 +253,11 @@ class Row extends React.Component {
           {"\n"}{this.props.address}
           </Text>}
         </Text>
+        <TouchableHighlight
+                          onPress = {this.navToLocation}
+                          style={tourStyles.rowButton}>
+                        <Text style={tourStyles.goToButton}>Info</Text> 
+        </TouchableHighlight>
       </View>
     );
   }

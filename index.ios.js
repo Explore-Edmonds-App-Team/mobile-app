@@ -26,6 +26,7 @@ import ScavMap from './scavenger/scavMap';
 import ScavVisited from './scavenger/visitedLocations';
 import Tours from './tours/tours';
 import TourCurrent from './tours/tourcurrent';
+import TourLocation from './tours/tourLocation';
 import TourMap from './tours/tourmap';
 
 class Project extends Component {
@@ -66,6 +67,8 @@ class Project extends Component {
         return <Tours navigator={navigator} />;
       case 'TourCurrent':
         return <TourCurrent navigator={navigator} {...route.passProps} />;
+      case 'TourLocation':
+        return <TourLocation navigator={navigator} {...route.passProps} />;
       case 'TourMap':
         return <TourMap navigator={navigator} {...route.passProps} />;
       case 'About':

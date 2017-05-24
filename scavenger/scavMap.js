@@ -79,33 +79,30 @@ export default class Scavmap extends Component{
     render() {
       return (
         <View style={styles.buttons}>
-          <TouchableHighlight
-            label='Home'
-            onPress={(event) => this.props.navigator.popToTop()}
-            underlayColor={'transparent'}
-          >
-            <Image  
-              style={[{backgroundColor:'rgba(255,255,255,.6)'},styles.icon]} 
-              source={require('../media/Icons/home.png')}
-            />  
-          </TouchableHighlight>
-          <TouchableHighlight
-            label='Back'
-            onPress={() => this.props.navigator.pop()}
-            underlayColor={'transparent'}
-          >
-            <Image
-              style={[{backgroundColor:'rgba(255,255,255,.6)'},styles.icon]}
-              source={require('../media/Icons/BackButton.png')}
-            />
-          </TouchableHighlight>
-          <View style={{height: 50, width: 50}}/>
-          <View style={{height: 50, width: 50}}/>
-          <View style={{height: 50, width: 50}}/>
-          <View style={{height: 50, width: 50}}/>
-          <View style={{height: 50, width: 50}}/>
-          <View style={{height: 50, width: 50}}/>
-          <View style={{height: 50, width: 50}}/>
+          <View style={[{backgroundColor: 'white'},styles.icon_container]}>
+            <TouchableHighlight
+              label='Home'
+              onPress={(event) => this.props.navigator.popToTop()}
+              underlayColor={'transparent'}
+            >
+              <Image  
+                style={styles.icon} 
+                source={require('../media/Icons/home.png')}
+              />  
+            </TouchableHighlight>
+          </View>
+          <View style={[{backgroundColor: 'white'},styles.icon_container]}>
+            <TouchableHighlight
+              label='Back'
+              onPress={() => this.props.navigator.pop()}
+              underlayColor={'transparent'}
+            >
+              <Image
+                style={styles.icon}
+                source={require('../media/Icons/BackButton.png')}
+              />
+            </TouchableHighlight>
+          </View>
         </View>
       );
     }

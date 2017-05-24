@@ -26,7 +26,7 @@ export default class Events extends Component {
     return (
       <View style={main.container}>
         <View style={main.HeaderContainer}>
-          <Header title='Events' navigator={this.props.navigator}/>
+          <Header title='Events' navigator={this.props.navigator} hasImage={true} />
         </View>
         <View style={main.bodyContainer}>
           <View style={styles.webViewContainer}>
