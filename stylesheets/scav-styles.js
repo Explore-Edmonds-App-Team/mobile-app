@@ -63,6 +63,7 @@ const styles = StyleSheet.create({
     flex: 0.160,
     flexDirection: 'column',
     justifyContent:'center',
+    borderBottomWidth: StyleSheet.hairlineWidth,
   },
   icon: {
     height: screenH/15,
@@ -105,6 +106,11 @@ const styles = StyleSheet.create({
   },
   instructContainer: {
     margin: 15,
+  },
+  instructImage: {
+    width: (screenW - 30),
+    marginTop: 10,
+    marginBottom: 10,
   },
   locationButton: {
     backgroundColor: 'rgba(117,169,249, 0.7)',

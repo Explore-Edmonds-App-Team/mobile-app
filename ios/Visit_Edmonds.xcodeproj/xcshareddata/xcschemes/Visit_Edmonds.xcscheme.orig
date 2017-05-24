@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0620"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "NO"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "83CBBA2D1A601D0E00E9B192"
+               BuildableName = "libReact.a"
+               BlueprintName = "React"
+               ReferencedContainer = "container:../node_modules/react-native/React/React.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+<<<<<<< HEAD:ios/Visit_Edmonds.xcodeproj/xcshareddata/xcschemes/Visit_Edmonds.xcscheme
+               BuildableName = "Visit_Edmonds.app"
+               BlueprintName = "Visit_Edmonds"
+               ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+=======
+               BuildableName = "Visit Edmonds.app"
+               BlueprintName = "Visit Edmonds"
+               ReferencedContainer = "container:Visit Edmonds.xcodeproj">
+>>>>>>> 53c21787ef6d98d6feac7f839f724da3e8f73bae:ios/Visit Edmonds.xcodeproj/xcshareddata/xcschemes/Visit_Edmonds.xcscheme
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
+               BuildableName = "Visit_EdmondsTests.xctest"
+               BlueprintName = "Visit_EdmondsTests"
+               ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
+               BuildableName = "Visit_EdmondsTests.xctest"
+               BlueprintName = "Visit_EdmondsTests"
+               ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+<<<<<<< HEAD:ios/Visit_Edmonds.xcodeproj/xcshareddata/xcschemes/Visit_Edmonds.xcscheme
+            BuildableName = "Visit_Edmonds.app"
+            BlueprintName = "Visit_Edmonds"
+            ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+=======
+            BuildableName = "Visit Edmonds.app"
+            BlueprintName = "Visit Edmonds"
+            ReferencedContainer = "container:Visit Edmonds.xcodeproj">
+>>>>>>> 53c21787ef6d98d6feac7f839f724da3e8f73bae:ios/Visit Edmonds.xcodeproj/xcshareddata/xcschemes/Visit_Edmonds.xcscheme
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES"
+      region = "US">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+<<<<<<< HEAD:ios/Visit_Edmonds.xcodeproj/xcshareddata/xcschemes/Visit_Edmonds.xcscheme
+            BuildableName = "Visit_Edmonds.app"
+            BlueprintName = "Visit_Edmonds"
+            ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+=======
+            BuildableName = "Visit Edmonds.app"
+            BlueprintName = "Visit Edmonds"
+            ReferencedContainer = "container:Visit Edmonds.xcodeproj">
+>>>>>>> 53c21787ef6d98d6feac7f839f724da3e8f73bae:ios/Visit Edmonds.xcodeproj/xcshareddata/xcschemes/Visit_Edmonds.xcscheme
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <LocationScenarioReference
+         identifier = "../../edmonds.gpx"
+         referenceType = "0">
+      </LocationScenarioReference>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+<<<<<<< HEAD:ios/Visit_Edmonds.xcodeproj/xcshareddata/xcschemes/Visit_Edmonds.xcscheme
+            BuildableName = "Visit_Edmonds.app"
+            BlueprintName = "Visit_Edmonds"
+            ReferencedContainer = "container:Visit_Edmonds.xcodeproj">
+=======
+            BuildableName = "Visit Edmonds.app"
+            BlueprintName = "Visit Edmonds"
+            ReferencedContainer = "container:Visit Edmonds.xcodeproj">
+>>>>>>> 53c21787ef6d98d6feac7f839f724da3e8f73bae:ios/Visit Edmonds.xcodeproj/xcshareddata/xcschemes/Visit_Edmonds.xcscheme
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

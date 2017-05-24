@@ -270,7 +270,7 @@ class UnlockButton extends React.Component {
           <Button
             style={styles.button}
             onPress={() => this.unlockLocation()} 
-            title="Unlock Location" 
+            title="Unlock Objective" 
             color="black" 
             accessibilityLabel="Unlock"
           />

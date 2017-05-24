@@ -34,7 +34,7 @@ export default class ScavLocation extends Component {
   render() {
       return(
       <View style={styles.locationContainer}>
-          <Image source={require('../media/background.png')} style={{flex: 1, width: null, height: null}}>
+          <Image source={require('../media/ScavImages/background.png')} style={{flex: 1, width: null, height: null}}>
             <TouchableHighlight
               onPress={() => this.props.navigator.pop({ refresh: {} })}>
               <Image
@@ -67,9 +67,9 @@ export default class ScavLocation extends Component {
                       })
                     )
                   }
-                  title="Show Map"
+                  title="Show on Map"
                   color="black"
-                  accessibilityLabel="Show Map"
+                  accessibilityLabel="Show on Map"
                 />
                 </View>
             </View>
