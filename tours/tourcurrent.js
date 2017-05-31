@@ -29,8 +29,8 @@ export default class TourCurrent extends Component {
 
         <Header 
           navigator={this.props.navigator} 
-          title={this.props.tourname}
-          hasImage={false}
+          title={'Tours'}
+          hasImage={true}
           type='back'
         />
         
@@ -161,7 +161,7 @@ class Body extends React.Component {
       return (
         <View style={tourStyles.bodyContainer}>
 
-          <Text style={tourStyles.activeTourLabel}>Locations:</Text>
+          <Text style={tourStyles.activeTourLabel}>{this.props.tourname}</Text>
 
           <ListView
               style={tourStyles.list}
@@ -194,7 +194,7 @@ class Body extends React.Component {
       return (
         <View style={tourStyles.bodyContainer}>
           
-          <Text style={tourStyles.activeTourLabel}>Locations:</Text>
+          <Text style={tourStyles.activeTourLabel}>{this.props.tourname}</Text>
 
           <ListView
               style={tourStyles.list}

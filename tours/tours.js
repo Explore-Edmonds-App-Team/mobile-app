@@ -100,7 +100,7 @@ class Row extends React.Component {
         <Text style={tourStyles.tourName}>
           {this.props.tourname}
           {<Text style={tourStyles.tourText}>
-          {"\n"}Length: {this.props.length} miles {"\n"}Estimated Time: {this.props.time} minutes
+          {"\n"}Length: {this.props.length} locations
           </Text>}
         </Text>
         <TouchableHighlight

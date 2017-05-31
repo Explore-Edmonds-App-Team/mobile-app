@@ -7,6 +7,7 @@ import {
   Image,
   ListView,
   Navigator,
+  ScrollView,
   StyleSheet,
   Text,
   TextInput,
@@ -19,25 +20,42 @@ import Header from '../commons/header';
 import tourStyles from '../stylesheets/tours-styles';
 
 export default class TourLocation extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      imageURI : this.props.name
+    } 
+  }
+  
   render() {
     return(
       
-      <View style={tourStyles.mainContainer}>
+      <View style={tourStyles.locationContainer}>
 
-        <Header 
-          navigator={this.props.navigator} 
-          title={this.props.name}
-          hasImage={false}
-          type='back'
-        />
-        
-        <Body 
-          navigator={this.props.navigator} 
-          name={this.props.name} 
-          address={this.props.address}
-          description={this.props.description}
-        />
-        
+        <Image source={require('../media/ScavImages/background.png')} style={{flex: 1, width: null, height: null}}>
+          <TouchableHighlight
+            onPress={() => this.props.navigator.pop({ refresh: {} })}>
+            <Image
+              source={require('../media/Icons/BackButton.png')}
+              style={tourStyles.icon}
+            />
+          </TouchableHighlight>
+
+          
+          <ScrollView style={tourStyles.infoContainer}>
+            <Image
+                source={{uri : this.state.imageURI}}
+                style={tourStyles.image}
+              />
+            <Body 
+              navigator={this.props.navigator} 
+              name={this.props.name} 
+              address={this.props.address}
+              description={this.props.description}
+              />
+            
+          </ScrollView>
+        </Image>
       </View>
   )}
   
@@ -50,10 +68,13 @@ class Body extends React.Component {
   
   render() {
     return (
-      <View style={tourStyles.bodyContainer}>
-        <Text style={tourStyles.activeTourLabel}>
-          {this.props.address}
-          <Text style={tourStyles.tourText}>{"\n"}{"\n"}{"\t"}{this.props.description}</Text>
+      <View>
+        <Text style={tourStyles.title}>
+          {this.props.name}{"\n"}
+          <Text style={tourStyles.activeTourLabel}>
+            {this.props.address}
+            <Text style={tourStyles.tourText}>{"\n"}{"\n"}{"\t"}{this.props.description}</Text>
+          </Text>
         </Text>
       </View>
     );

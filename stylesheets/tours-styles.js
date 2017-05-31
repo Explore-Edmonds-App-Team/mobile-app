@@ -42,7 +42,7 @@ export default tourStyles = StyleSheet.create ({
   },
   
   buttonContainer: {
-    backgroundColor: '#2E9298',
+    backgroundColor: '#75a9f9',
     borderRadius: 10,
     padding: 10,
     shadowColor: '#000000',
@@ -83,6 +83,35 @@ export default tourStyles = StyleSheet.create ({
     justifyContent: 'flex-start',
   },
   
+  icon: {
+    height: screenH/15,
+    width: screenH/15,
+    left: 10,
+    marginTop: 30,
+    backgroundColor: 'white',
+    borderColor: 'black',
+    borderWidth: 1.5,
+    borderRadius: 5,
+    padding: 3,
+  },
+  
+  image : {
+    margin: 20,
+  },
+  
+  infoContainer: {
+    backgroundColor: 'rgba(255, 255, 255, 0.7)',
+    borderRadius: 5,
+    padding: 5,
+    paddingTop: 15,
+    paddingBottom: 15,
+    flex: .8,
+    flexDirection: 'column',
+    marginTop: -50,
+    marginHorizontal: 15,
+    zIndex: -1,
+  },
+  
   list: {
     marginTop: 10,
     backgroundColor: "white",
@@ -101,6 +130,12 @@ export default tourStyles = StyleSheet.create ({
     margin: 2,
   },
     
+  locationContainer :{
+    flex: 1,
+    flexDirection: 'column',
+    backgroundColor: 'white',
+  },
+  
   mainContainer: {
     flex: 1,
     flexDirection: 'column',
@@ -134,10 +169,8 @@ export default tourStyles = StyleSheet.create ({
   
   title: {
     fontSize: 30,
-    color: 'white',
     fontWeight: 'bold',
-    marginRight: screenW/4,
-    marginLeft: screenW/4,
+    margin: 15,
     textAlign: 'center'
   },
   

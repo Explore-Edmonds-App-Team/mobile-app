@@ -1,5 +1,96 @@
 export default tourData = [
-
+  {
+    "tourname": "Stages of History",
+    "time": 53,
+    "length": 12,
+    "locations": [
+      {
+        "name": "Edmonds High School",
+        "description": "The first high shcool within a 20 mile territory was a two-story brick classical revival structure built in Edmonds overlooking Puget Sound.",
+        "address": "410 4th Ave North",
+        "latitude": 47.8142904,
+        "longitude": -122.37567530,
+        },
+        {
+        "name": "Phillips Motorcourt",
+        "description": "The Phillips Motorcourt was constructed by Donald Phillips in 1941 to serve motorists passing through Edmonds.",
+        "address": "304 4th Ave North",
+        "latitude": 47.8131786,
+        "longitude": -122.3763480,
+        },
+        {
+        "name": "4th Avenue Houses",
+        "description": "The street offers several examples of homes built in Edmonds after 1900, when the shingle mills were humming along the waterfront.",
+        "address": "216 4th Ave North",
+        "latitude": 47.81233659999999,
+        "longitude": -122.37708020000002,
+        },
+        {
+        "name": "Roscoe House",
+        "description": "Records suggest that this house was built by Edmonds pioneer C.T. Roscoe, Sr., around 1889",
+        "address": "133 4th Ave North",
+        "latitude": 47.81194,
+        "longitude": -122.37803129999998,
+        },
+      {
+        "name": "Baptist Church",
+        "description": "The First Baptist Chruch od Edmonds was the second church constructed in downtown Edmonds, and is the oldest one still functioning as a church.",
+        "address": "404 Bell Street",
+        "latitude": 47.8117419,
+        "longitude": -122.37747639999998,
+        },
+      {
+        "name": "Doctor's Offices",
+        "description": "Art Deco design in the arts architecture influenced this 1938 doctor's office. The office across the street was constructed by Dr. Hall in 1910.",
+        "address": "110 and 117 4th Ave North",
+        "latitude": 47.8115417,
+        "longitude": -122.37839120000001,
+        },
+      {
+        "name": "First School House",
+        "description": "Edmonds' first school opened in 1884 in temporary quarters and served six students. The first school house was built in 1887. The site was later used for an aircraft observation tower during WWII.",
+        "address": "109 4th Ave North",
+        "latitude": 47.8112389,
+        "longitude": -122.37849799999998,
+        },
+      {
+        "name": "Fourth & Main",
+        "description": "Main Street at 4th Avenue has been described as the first permanent business block in Edmonds.",
+        "address": "326 Main Street",
+        "latitude": 47.8109096,
+        "longitude": -122.37877100000003,
+        },
+      {
+        "name": "Princess Theatre",
+        "description": "The Edmonds Theater, formerly The Princess Theatre, was built in 1923.",
+        "address": "415 Main Street",
+        "latitude": 47.8109502,
+        "longitude": -122.37769659999998,
+        },
+      {
+        "name": "Fifth & Main",
+        "description": "Since the days of horse-drawn wagons, the main roads from the east and the south converged on this intersection.",
+        "address": "502 Main Street",
+        "latitude": 47.8103992,
+        "longitude": -122.3772722,
+        },
+      {
+        "name": "IOOF Hall & Telephone Co.",
+        "description": "The Independent Order of Odd Fellows was founded in April of 1891. In 1899, Edmonds granted a franchise to provide telephone service to the Sunset Telegraph and Telephone Company.",
+        "address": "535 and 542 Main Street",
+        "latitude": 47.8102922,
+        "longitude": -122.37584750000002,
+        },
+      {
+        "name": "Carnegie Library & Log Cabin",
+        "description": "In 1909, Revered Lockwood succeeded in acquiring a $5,000 Carnegie grant for a new library building. It is now the home of the Edmonds Historical Museum. The hand hewn log cabin built in the 1930s was moved next door in 1975 and later become the Visitor Center.",
+        "address": "118 5th Ave North",
+        "latitude": 47.811063,
+        "longitude": -122.37669199999999,
+        },
+    ],
+  },
+  
   {
     "tourname": "Historic Sites",
     "time": 99,
@@ -86,66 +177,10 @@ export default tourData = [
         },
     ],
   },
-  
-  {
-    "tourname": "Stages of History",
-    "time": 53,
-    "length": 7,
-    "locations": [
-      {
-        "name": "Frances E. Anderson Center",
-        "description": "TODO",
-        "address": "700 Main Street",
-        "latitude": 47.810127,
-        "longitude": -122.371722,
-        },
-        {
-        "name": "Edmonds Library",
-        "description": "TODO",
-        "address": "650 Main Street",
-        "latitude": 47.8101022,
-        "longitude": -122.372921,
-        },
-        {
-        "name": "Waste Water Treatment Plant",
-        "description": "TODO",
-        "address": "2nd & Dayton",
-        "latitude": 47.8097152,
-        "longitude": -122.3818182,
-        },
-    ],
-  },
-  
   {
     "tourname": "Example Tour 4",
     "time": 10,
     "length": 1,
-    "locations": [],
-  },
-
-  {
-    "tourname": "Example Tour 5",
-    "time": 45,
-    "length": 5,
-    "locations": [],
-  },
-  
-  {
-    "tourname": "Example Tour 6",
-    "time": 70,
-    "length": 8,
-    "locations": [],
-  },
-  {
-    "tourname": "Example Tour 7",
-    "time": 10,
-    "length": 3,
-    "locations": [],
-  },
-  {
-    "tourname": "Example Tour 8",
-    "time": 100,
-    "length": 2,
     "locations": [],
   },
 ];
